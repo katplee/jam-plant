@@ -12,6 +12,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Water",
+                    "type": "PassThrough",
+                    "id": "31f08c47-7b00-40e9-b645-b6ab2825e612",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -29,7 +37,7 @@
                 {
                     "name": "negative",
                     "id": "23e3d516-1442-41ca-95ad-e3d6e14177fd",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -40,7 +48,7 @@
                 {
                     "name": "positive",
                     "id": "88f0faad-29be-4c76-826f-052137dd7b56",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -62,7 +70,7 @@
                 {
                     "name": "negative",
                     "id": "f059c2c7-5121-4fdc-b005-855dfcdbad92",
-                    "path": "<Keyboard>/s",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -73,13 +81,51 @@
                 {
                     "name": "positive",
                     "id": "3a0a7144-12ca-4d95-8934-4ad73dc3eb90",
-                    "path": "<Keyboard>/w",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "ddce2fc4-ebf2-4bd4-bf2a-d66641a0176f",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Water",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Special",
+            "id": "e62a7ca2-6a6f-4eca-baad-e43cf8c48409",
+            "actions": [
+                {
+                    "name": "Shake",
+                    "type": "PassThrough",
+                    "id": "4e8cc495-daa6-467e-af33-6f4059641328",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3621795f-a3f5-4d6e-95c0-ae32668b0cfc",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shake",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
